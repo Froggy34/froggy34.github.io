@@ -1,0 +1,17 @@
+		body {
+			text-align: center;
+			background-color: gray;		
+		}
+		img {
+			width: 325px;
+			height: 250px;
+			border-radius: 20px;
+		}
+		.main {
+			background-color: dimgray;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+			border-radius: 10px;
+		}
