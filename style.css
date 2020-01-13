@@ -1,25 +1,31 @@
 		body {
 			text-align: center;
-			background-color: gray;
+			background-color: #303030;
+		}
+		main {
+			display: inline-block;
+			background-color: #424242;
+			color: rgba(255, 255, 255, 0.7);
+			border-radius: 8px;
+		}
+		h1 {
+			background-color: #212121;
+			font-size: 50px;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			margin-top: 0px;
+		}
+		.visionboard {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			margin-right: 5px;
+			margin-left: 5px;
 		}
 		img {
-			width: 325px;
-			height: 250px;
-			border-radius: 20px;
-		}
-		div {
-			background-color: dimgray;
-			max-width: 400px;
-			height: auto;
-			margin: auto;
-			border-radius: 20px;
-			padding-top: 5px;
-			padding-bottom: 5px;
-		}
-		li {
-			list-style-type: circle;
-			text-align: left;
-			margin-left: 25%;
-			margin-right: 25%;
-			margin-bottom: 5px;
+			width: 150px;
+			height: 150px;
+			border-radius: 8px;
+			padding: 5px;
+			border-width: medium;
+			border-color: #212121;
 		}
