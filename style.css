@@ -9,14 +9,17 @@
 		}
 		div {
 			background-color: dimgray;
-			margin-left: 500px;
-			margin-right: 500px;
-		}
-		ul > li {
-			display: run-in;
+			max-width: 400px;
+			height: auto;
+			margin: auto;
+			border-radius: 20px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 		li {
 			list-style-type: circle;
 			text-align: left;
-			margin-left: 20px;
+			margin-left: 25%;
+			margin-right: 25%;
+			margin-bottom: 5px;
 		}
